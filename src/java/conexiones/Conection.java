@@ -42,9 +42,9 @@ public class Conection {
     
     public static void getConection(){
         try {
-            String DSN="jdbc:mysql://localhost/inventsys";
-            String user="root";
-            String password="adminsys";
+            String DSN="jdbc:mysql://127.2.49.130;3306/cedi";
+            String user="adminjKuXw67";
+            String password="KmMkqTyj5Ktq";
             conexion=(Connection) DriverManager.getConnection(DSN,user,password);
             //System.out.print("Conexion exitosa");
         } catch (SQLException ex) {
